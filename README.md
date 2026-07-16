@@ -71,12 +71,12 @@ Decision_Trees_Random_Forest/
 │   │   ├── train-images-idx3-ubyte
 │   │   └── train-labels-idx1-ubyte
 │   └── extra_data_set/
-│        └── data
+│        └── data.csv
 │
 ├── Results/
 │   ├── running_everything_output.txt
 │   ├── running_test_output.txt
-│   └── Image of 5
+│   └── Image of 5.png
 │
 └── Report/
     └── Decision_Trees_and_Random_Forest_Project_Report.pdf

@@ -1,0 +1,1619 @@
+EXTRA DATASET TESTS
+
+FULL ALGORITHM COMPARISON
+
+==============================
+Extra Dataset C4.5
+==============================
+Accuracy: 0.9474
+Runtime: 0.09 seconds
+Confusion Matrix:
+[[68  1]
+ [ 5 40]]
+
+==============================
+Extra Dataset Random Forest
+==============================
+Training tree 1/25
+Training tree 2/25
+Training tree 3/25
+Training tree 4/25
+Training tree 5/25
+Training tree 6/25
+Training tree 7/25
+Training tree 8/25
+Training tree 9/25
+Training tree 10/25
+Training tree 11/25
+Training tree 12/25
+Training tree 13/25
+Training tree 14/25
+Training tree 15/25
+Training tree 16/25
+Training tree 17/25
+Training tree 18/25
+Training tree 19/25
+Training tree 20/25
+Training tree 21/25
+Training tree 22/25
+Training tree 23/25
+Training tree 24/25
+Training tree 25/25
+Accuracy: 0.9649
+Runtime: 0.55 seconds
+Confusion Matrix:
+[[68  1]
+ [ 3 42]]
+
+==============================
+Extra Dataset AdaBoost
+==============================
+Training AdaBoost stump 1/20
+Training AdaBoost stump 2/20
+Training AdaBoost stump 3/20
+Training AdaBoost stump 4/20
+Training AdaBoost stump 5/20
+Training AdaBoost stump 6/20
+Training AdaBoost stump 7/20
+Training AdaBoost stump 8/20
+Training AdaBoost stump 9/20
+Training AdaBoost stump 10/20
+Training AdaBoost stump 11/20
+Training AdaBoost stump 12/20
+Training AdaBoost stump 13/20
+Training AdaBoost stump 14/20
+Training AdaBoost stump 15/20
+Training AdaBoost stump 16/20
+Training AdaBoost stump 17/20
+Training AdaBoost stump 18/20
+Training AdaBoost stump 19/20
+Training AdaBoost stump 20/20
+Accuracy: 0.9649
+Runtime: 0.04 seconds
+Confusion Matrix:
+[[68  1]
+ [ 3 42]]
+
+C4.5 MAX DEPTH TESTS
+
+==============================
+C4.5 max_depth=2
+==============================
+Accuracy: 0.9386
+Runtime: 0.03 seconds
+Confusion Matrix:
+[[69  0]
+ [ 7 38]]
+
+==============================
+C4.5 max_depth=4
+==============================
+Accuracy: 0.9386
+Runtime: 0.06 seconds
+Confusion Matrix:
+[[68  1]
+ [ 6 39]]
+
+==============================
+C4.5 max_depth=6
+==============================
+Accuracy: 0.9474
+Runtime: 0.08 seconds
+Confusion Matrix:
+[[68  1]
+ [ 5 40]]
+
+==============================
+C4.5 max_depth=8
+==============================
+Accuracy: 0.9474
+Runtime: 0.09 seconds
+Confusion Matrix:
+[[68  1]
+ [ 5 40]]
+
+==============================
+C4.5 max_depth=10
+==============================
+Accuracy: 0.9474
+Runtime: 0.10 seconds
+Confusion Matrix:
+[[68  1]
+ [ 5 40]]
+
+==============================
+C4.5 max_depth=12
+==============================
+Accuracy: 0.9474
+Runtime: 0.09 seconds
+Confusion Matrix:
+[[68  1]
+ [ 5 40]]
+
+C4.5 MIN SAMPLES SPLIT TESTS
+
+==============================
+C4.5 min_samples_split=2
+==============================
+Accuracy: 0.9474
+Runtime: 0.11 seconds
+Confusion Matrix:
+[[68  1]
+ [ 5 40]]
+
+==============================
+C4.5 min_samples_split=3
+==============================
+Accuracy: 0.9474
+Runtime: 0.09 seconds
+Confusion Matrix:
+[[68  1]
+ [ 5 40]]
+
+==============================
+C4.5 min_samples_split=5
+==============================
+Accuracy: 0.9561
+Runtime: 0.08 seconds
+Confusion Matrix:
+[[69  0]
+ [ 5 40]]
+
+==============================
+C4.5 min_samples_split=10
+==============================
+Accuracy: 0.9386
+Runtime: 0.07 seconds
+Confusion Matrix:
+[[69  0]
+ [ 7 38]]
+
+==============================
+C4.5 min_samples_split=15
+==============================
+Accuracy: 0.9386
+Runtime: 0.07 seconds
+Confusion Matrix:
+[[69  0]
+ [ 7 38]]
+
+RANDOM FOREST NUMBER OF TREES TESTS
+
+==============================
+Random Forest n_trees=5
+==============================
+Training tree 1/5
+Training tree 2/5
+Training tree 3/5
+Training tree 4/5
+Training tree 5/5
+Accuracy: 0.9386
+Runtime: 0.11 seconds
+Confusion Matrix:
+[[68  1]
+ [ 6 39]]
+
+==============================
+Random Forest n_trees=10
+==============================
+Training tree 1/10
+Training tree 2/10
+Training tree 3/10
+Training tree 4/10
+Training tree 5/10
+Training tree 6/10
+Training tree 7/10
+Training tree 8/10
+Training tree 9/10
+Training tree 10/10
+Accuracy: 0.9737
+Runtime: 0.23 seconds
+Confusion Matrix:
+[[69  0]
+ [ 3 42]]
+
+==============================
+Random Forest n_trees=25
+==============================
+Training tree 1/25
+Training tree 2/25
+Training tree 3/25
+Training tree 4/25
+Training tree 5/25
+Training tree 6/25
+Training tree 7/25
+Training tree 8/25
+Training tree 9/25
+Training tree 10/25
+Training tree 11/25
+Training tree 12/25
+Training tree 13/25
+Training tree 14/25
+Training tree 15/25
+Training tree 16/25
+Training tree 17/25
+Training tree 18/25
+Training tree 19/25
+Training tree 20/25
+Training tree 21/25
+Training tree 22/25
+Training tree 23/25
+Training tree 24/25
+Training tree 25/25
+Accuracy: 0.9737
+Runtime: 0.49 seconds
+Confusion Matrix:
+[[69  0]
+ [ 3 42]]
+
+==============================
+Random Forest n_trees=50
+==============================
+Training tree 1/50
+Training tree 2/50
+Training tree 3/50
+Training tree 4/50
+Training tree 5/50
+Training tree 6/50
+Training tree 7/50
+Training tree 8/50
+Training tree 9/50
+Training tree 10/50
+Training tree 11/50
+Training tree 12/50
+Training tree 13/50
+Training tree 14/50
+Training tree 15/50
+Training tree 16/50
+Training tree 17/50
+Training tree 18/50
+Training tree 19/50
+Training tree 20/50
+Training tree 21/50
+Training tree 22/50
+Training tree 23/50
+Training tree 24/50
+Training tree 25/50
+Training tree 26/50
+Training tree 27/50
+Training tree 28/50
+Training tree 29/50
+Training tree 30/50
+Training tree 31/50
+Training tree 32/50
+Training tree 33/50
+Training tree 34/50
+Training tree 35/50
+Training tree 36/50
+Training tree 37/50
+Training tree 38/50
+Training tree 39/50
+Training tree 40/50
+Training tree 41/50
+Training tree 42/50
+Training tree 43/50
+Training tree 44/50
+Training tree 45/50
+Training tree 46/50
+Training tree 47/50
+Training tree 48/50
+Training tree 49/50
+Training tree 50/50
+Accuracy: 0.9737
+Runtime: 1.06 seconds
+Confusion Matrix:
+[[69  0]
+ [ 3 42]]
+
+RANDOM FOREST RANDOM FEATURES TESTS
+
+==============================
+Random Forest random_features=2
+==============================
+Training tree 1/25
+Training tree 2/25
+Training tree 3/25
+Training tree 4/25
+Training tree 5/25
+Training tree 6/25
+Training tree 7/25
+Training tree 8/25
+Training tree 9/25
+Training tree 10/25
+Training tree 11/25
+Training tree 12/25
+Training tree 13/25
+Training tree 14/25
+Training tree 15/25
+Training tree 16/25
+Training tree 17/25
+Training tree 18/25
+Training tree 19/25
+Training tree 20/25
+Training tree 21/25
+Training tree 22/25
+Training tree 23/25
+Training tree 24/25
+Training tree 25/25
+Accuracy: 0.9649
+Runtime: 0.37 seconds
+Confusion Matrix:
+[[69  0]
+ [ 4 41]]
+
+==============================
+Random Forest random_features=4
+==============================
+Training tree 1/25
+Training tree 2/25
+Training tree 3/25
+Training tree 4/25
+Training tree 5/25
+Training tree 6/25
+Training tree 7/25
+Training tree 8/25
+Training tree 9/25
+Training tree 10/25
+Training tree 11/25
+Training tree 12/25
+Training tree 13/25
+Training tree 14/25
+Training tree 15/25
+Training tree 16/25
+Training tree 17/25
+Training tree 18/25
+Training tree 19/25
+Training tree 20/25
+Training tree 21/25
+Training tree 22/25
+Training tree 23/25
+Training tree 24/25
+Training tree 25/25
+Accuracy: 0.9737
+Runtime: 0.47 seconds
+Confusion Matrix:
+[[69  0]
+ [ 3 42]]
+
+==============================
+Random Forest random_features=6
+==============================
+Training tree 1/25
+Training tree 2/25
+Training tree 3/25
+Training tree 4/25
+Training tree 5/25
+Training tree 6/25
+Training tree 7/25
+Training tree 8/25
+Training tree 9/25
+Training tree 10/25
+Training tree 11/25
+Training tree 12/25
+Training tree 13/25
+Training tree 14/25
+Training tree 15/25
+Training tree 16/25
+Training tree 17/25
+Training tree 18/25
+Training tree 19/25
+Training tree 20/25
+Training tree 21/25
+Training tree 22/25
+Training tree 23/25
+Training tree 24/25
+Training tree 25/25
+Accuracy: 0.9649
+Runtime: 0.58 seconds
+Confusion Matrix:
+[[69  0]
+ [ 4 41]]
+
+==============================
+Random Forest random_features=8
+==============================
+Training tree 1/25
+Training tree 2/25
+Training tree 3/25
+Training tree 4/25
+Training tree 5/25
+Training tree 6/25
+Training tree 7/25
+Training tree 8/25
+Training tree 9/25
+Training tree 10/25
+Training tree 11/25
+Training tree 12/25
+Training tree 13/25
+Training tree 14/25
+Training tree 15/25
+Training tree 16/25
+Training tree 17/25
+Training tree 18/25
+Training tree 19/25
+Training tree 20/25
+Training tree 21/25
+Training tree 22/25
+Training tree 23/25
+Training tree 24/25
+Training tree 25/25
+Accuracy: 0.9737
+Runtime: 0.68 seconds
+Confusion Matrix:
+[[69  0]
+ [ 3 42]]
+
+==============================
+Random Forest random_features=10
+==============================
+Training tree 1/25
+Training tree 2/25
+Training tree 3/25
+Training tree 4/25
+Training tree 5/25
+Training tree 6/25
+Training tree 7/25
+Training tree 8/25
+Training tree 9/25
+Training tree 10/25
+Training tree 11/25
+Training tree 12/25
+Training tree 13/25
+Training tree 14/25
+Training tree 15/25
+Training tree 16/25
+Training tree 17/25
+Training tree 18/25
+Training tree 19/25
+Training tree 20/25
+Training tree 21/25
+Training tree 22/25
+Training tree 23/25
+Training tree 24/25
+Training tree 25/25
+Accuracy: 0.9825
+Runtime: 0.77 seconds
+Confusion Matrix:
+[[69  0]
+ [ 2 43]]
+
+ADABOOST ESTIMATOR TESTS
+
+==============================
+AdaBoost n_estimators=5
+==============================
+Training AdaBoost stump 1/5
+Training AdaBoost stump 2/5
+Training AdaBoost stump 3/5
+Training AdaBoost stump 4/5
+Training AdaBoost stump 5/5
+Accuracy: 0.9737
+Runtime: 0.01 seconds
+Confusion Matrix:
+[[68  1]
+ [ 2 43]]
+
+==============================
+AdaBoost n_estimators=10
+==============================
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Accuracy: 0.9649
+Runtime: 0.02 seconds
+Confusion Matrix:
+[[68  1]
+ [ 3 42]]
+
+==============================
+AdaBoost n_estimators=20
+==============================
+Training AdaBoost stump 1/20
+Training AdaBoost stump 2/20
+Training AdaBoost stump 3/20
+Training AdaBoost stump 4/20
+Training AdaBoost stump 5/20
+Training AdaBoost stump 6/20
+Training AdaBoost stump 7/20
+Training AdaBoost stump 8/20
+Training AdaBoost stump 9/20
+Training AdaBoost stump 10/20
+Training AdaBoost stump 11/20
+Training AdaBoost stump 12/20
+Training AdaBoost stump 13/20
+Training AdaBoost stump 14/20
+Training AdaBoost stump 15/20
+Training AdaBoost stump 16/20
+Training AdaBoost stump 17/20
+Training AdaBoost stump 18/20
+Training AdaBoost stump 19/20
+Training AdaBoost stump 20/20
+Accuracy: 0.9649
+Runtime: 0.04 seconds
+Confusion Matrix:
+[[68  1]
+ [ 3 42]]
+
+==============================
+AdaBoost n_estimators=30
+==============================
+Training AdaBoost stump 1/30
+Training AdaBoost stump 2/30
+Training AdaBoost stump 3/30
+Training AdaBoost stump 4/30
+Training AdaBoost stump 5/30
+Training AdaBoost stump 6/30
+Training AdaBoost stump 7/30
+Training AdaBoost stump 8/30
+Training AdaBoost stump 9/30
+Training AdaBoost stump 10/30
+Training AdaBoost stump 11/30
+Training AdaBoost stump 12/30
+Training AdaBoost stump 13/30
+Training AdaBoost stump 14/30
+Training AdaBoost stump 15/30
+Training AdaBoost stump 16/30
+Training AdaBoost stump 17/30
+Training AdaBoost stump 18/30
+Training AdaBoost stump 19/30
+Training AdaBoost stump 20/30
+Training AdaBoost stump 21/30
+Training AdaBoost stump 22/30
+Training AdaBoost stump 23/30
+Training AdaBoost stump 24/30
+Training AdaBoost stump 25/30
+Training AdaBoost stump 26/30
+Training AdaBoost stump 27/30
+Training AdaBoost stump 28/30
+Training AdaBoost stump 29/30
+Training AdaBoost stump 30/30
+Accuracy: 0.9649
+Runtime: 0.07 seconds
+Confusion Matrix:
+[[68  1]
+ [ 3 42]]
+
+==============================
+AdaBoost n_estimators=50
+==============================
+Training AdaBoost stump 1/50
+Training AdaBoost stump 2/50
+Training AdaBoost stump 3/50
+Training AdaBoost stump 4/50
+Training AdaBoost stump 5/50
+Training AdaBoost stump 6/50
+Training AdaBoost stump 7/50
+Training AdaBoost stump 8/50
+Training AdaBoost stump 9/50
+Training AdaBoost stump 10/50
+Training AdaBoost stump 11/50
+Training AdaBoost stump 12/50
+Training AdaBoost stump 13/50
+Training AdaBoost stump 14/50
+Training AdaBoost stump 15/50
+Training AdaBoost stump 16/50
+Training AdaBoost stump 17/50
+Training AdaBoost stump 18/50
+Training AdaBoost stump 19/50
+Training AdaBoost stump 20/50
+Training AdaBoost stump 21/50
+Training AdaBoost stump 22/50
+Training AdaBoost stump 23/50
+Training AdaBoost stump 24/50
+Training AdaBoost stump 25/50
+Training AdaBoost stump 26/50
+Training AdaBoost stump 27/50
+Training AdaBoost stump 28/50
+Training AdaBoost stump 29/50
+Training AdaBoost stump 30/50
+Training AdaBoost stump 31/50
+Training AdaBoost stump 32/50
+Training AdaBoost stump 33/50
+Training AdaBoost stump 34/50
+Training AdaBoost stump 35/50
+Training AdaBoost stump 36/50
+Training AdaBoost stump 37/50
+Training AdaBoost stump 38/50
+Training AdaBoost stump 39/50
+Training AdaBoost stump 40/50
+Training AdaBoost stump 41/50
+Training AdaBoost stump 42/50
+Training AdaBoost stump 43/50
+Training AdaBoost stump 44/50
+Training AdaBoost stump 45/50
+Training AdaBoost stump 46/50
+Training AdaBoost stump 47/50
+Training AdaBoost stump 48/50
+Training AdaBoost stump 49/50
+Training AdaBoost stump 50/50
+Accuracy: 0.9649
+Runtime: 0.10 seconds
+Confusion Matrix:
+[[67  2]
+ [ 2 43]]
+
+
+MNIST DATASET TESTS
+
+FULL ALGORITHM COMPARISON
+
+==============================
+MNIST C4.5
+==============================
+Accuracy: 0.2290
+Runtime: 6.11 seconds
+Confusion Matrix:
+[[ 37  44   1   0   0   1   2   0   0   0]
+ [  0 125   0   0   0   0   1   0   0   0]
+ [  0  93  15   1   1   0   6   0   0   0]
+ [  1 106   0   0   0   0   0   0   0   0]
+ [  2 105   0   0   1   0   1   0   1   0]
+ [  3  83   0   0   0   0   1   0   0   0]
+ [  5  20   2   0  11   0  49   0   0   0]
+ [  0  96   0   0   1   0   0   0   1   1]
+ [  0  82   1   0   3   1   1   0   1   0]
+ [  1  92   0   0   0   0   0   0   0   1]]
+
+==============================
+MNIST Random Forest
+==============================
+Training tree 1/25
+Training tree 2/25
+Training tree 3/25
+Training tree 4/25
+Training tree 5/25
+Training tree 6/25
+Training tree 7/25
+Training tree 8/25
+Training tree 9/25
+Training tree 10/25
+Training tree 11/25
+Training tree 12/25
+Training tree 13/25
+Training tree 14/25
+Training tree 15/25
+Training tree 16/25
+Training tree 17/25
+Training tree 18/25
+Training tree 19/25
+Training tree 20/25
+Training tree 21/25
+Training tree 22/25
+Training tree 23/25
+Training tree 24/25
+Training tree 25/25
+Accuracy: 0.2760
+Runtime: 16.23 seconds
+Confusion Matrix:
+[[ 45  39   0   0   0   0   1   0   0   0]
+ [  0 125   0   0   0   0   1   0   0   0]
+ [  0  88  28   0   0   0   0   0   0   0]
+ [  0 107   0   0   0   0   0   0   0   0]
+ [  1 106   0   0   1   0   2   0   0   0]
+ [  2  84   0   0   0   0   0   1   0   0]
+ [  4  22   0   0   1   0  60   0   0   0]
+ [  0  83   0   0   0   0   0  16   0   0]
+ [  1  85   1   0   0   0   1   0   1   0]
+ [  0  94   0   0   0   0   0   0   0   0]]
+
+==============================
+MNIST AdaBoost One-vs-Rest
+==============================
+Training AdaBoost for class 0
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 1
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 2
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 3
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 4
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 5
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 6
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 7
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 8
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 9
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Accuracy: 0.6860
+Runtime: 11.95 seconds
+Confusion Matrix:
+[[ 69   0   3   0   2   4   4   1   0   2]
+ [  0 115   0   9   0   0   0   0   2   0]
+ [  1  12  68   8   6   2   5   4   6   4]
+ [  1   2   2  69   1  15   1   6   6   4]
+ [  1   1   0   0  85   7   2   4   0  10]
+ [  0   2   0  14   5  50   1   7   4   4]
+ [  7   1   3   0   5   3  57   4   5   2]
+ [  0   6   2   1   5   3   1  70   1  10]
+ [  2   7   2  11   3   6   2   4  47   5]
+ [  0   3   0   4  16   2   0  10   3  56]]
+
+MNIST C4.5 MAX DEPTH TESTS
+
+==============================
+MNIST C4.5 max_depth=5
+==============================
+Accuracy: 0.1430
+Runtime: 2.17 seconds
+Confusion Matrix:
+[[  0  85   0   0   0   0   0   0   0   0]
+ [  0 126   0   0   0   0   0   0   0   0]
+ [  0 113   3   0   0   0   0   0   0   0]
+ [  0 107   0   0   0   0   0   0   0   0]
+ [  0 109   0   0   0   0   1   0   0   0]
+ [  0  87   0   0   0   0   0   0   0   0]
+ [  0  73   0   0   0   0  14   0   0   0]
+ [  0  99   0   0   0   0   0   0   0   0]
+ [  0  89   0   0   0   0   0   0   0   0]
+ [  0  94   0   0   0   0   0   0   0   0]]
+
+==============================
+MNIST C4.5 max_depth=10
+==============================
+Accuracy: 0.2060
+Runtime: 4.58 seconds
+Confusion Matrix:
+[[ 39  46   0   0   0   0   0   0   0   0]
+ [  0 125   0   0   0   0   1   0   0   0]
+ [  0 105   6   1   1   0   3   0   0   0]
+ [  1 106   0   0   0   0   0   0   0   0]
+ [  2 105   0   0   1   0   2   0   0   0]
+ [  3  84   0   0   0   0   0   0   0   0]
+ [  7  34   0   0  11   0  35   0   0   0]
+ [  0  96   0   0   3   0   0   0   0   0]
+ [  1  84   0   0   4   0   0   0   0   0]
+ [  1  92   0   0   1   0   0   0   0   0]]
+
+==============================
+MNIST C4.5 max_depth=15
+==============================
+Accuracy: 0.2290
+Runtime: 7.53 seconds
+Confusion Matrix:
+[[ 37  44   1   0   0   1   2   0   0   0]
+ [  0 125   0   0   0   0   1   0   0   0]
+ [  0  93  15   1   1   0   6   0   0   0]
+ [  1 106   0   0   0   0   0   0   0   0]
+ [  2 105   0   0   1   0   1   0   1   0]
+ [  3  83   0   0   0   0   1   0   0   0]
+ [  5  20   2   0  11   0  49   0   0   0]
+ [  0  96   0   0   1   0   0   0   1   1]
+ [  0  82   1   0   3   1   1   0   1   0]
+ [  1  92   0   0   0   0   0   0   0   1]]
+
+==============================
+MNIST C4.5 max_depth=20
+==============================
+Accuracy: 0.3600
+Runtime: 12.59 seconds
+Confusion Matrix:
+[[ 35   0  20   0   2   1   2  25   0   0]
+ [  0 124   0   0   0   0   1   1   0   0]
+ [  2  26  46   1   1   0   4  36   0   0]
+ [  1  78   9   0   0   0   0  19   0   0]
+ [  1  29   1   0   1   0   1  76   1   0]
+ [  3  42   9   0   0   0   1  32   0   0]
+ [  4   7   4   0   1   0  64   7   0   0]
+ [  0   7   1   0   1   0   0  88   1   1]
+ [  0  63   4   0   2   2   2  15   1   0]
+ [  1  35   0   0   0   0   0  57   0   1]]
+
+MNIST RANDOM FOREST NUMBER OF TREES TESTS
+
+==============================
+MNIST Random Forest n_trees=5
+==============================
+Training tree 1/5
+Training tree 2/5
+Training tree 3/5
+Training tree 4/5
+Training tree 5/5
+Accuracy: 0.3220
+Runtime: 4.41 seconds
+Confusion Matrix:
+[[ 54  25   0   0   1   0   1   4   0   0]
+ [  0 126   0   0   0   0   0   0   0   0]
+ [  3  92  21   0   0   0   0   0   0   0]
+ [  0 106   0   0   0   0   0   0   0   1]
+ [  1  84   0   0  24   0   1   0   0   0]
+ [  1  75   0   0   1   5   0   5   0   0]
+ [  3  38   0   0   0   1  44   1   0   0]
+ [  0  55   0   0   0   0   0  44   0   0]
+ [  1  85   0   0   1   0   1   0   1   0]
+ [  0  77   0   0   7   0   0   7   0   3]]
+
+==============================
+MNIST Random Forest n_trees=10
+==============================
+Training tree 1/10
+Training tree 2/10
+Training tree 3/10
+Training tree 4/10
+Training tree 5/10
+Training tree 6/10
+Training tree 7/10
+Training tree 8/10
+Training tree 9/10
+Training tree 10/10
+Accuracy: 0.3080
+Runtime: 8.26 seconds
+Confusion Matrix:
+[[ 63  21   1   0   0   0   0   0   0   0]
+ [  0 126   0   0   0   0   0   0   0   0]
+ [  1  87  24   1   2   0   1   0   0   0]
+ [  1 105   0   0   1   0   0   0   0   0]
+ [  1  73   2   0  33   0   1   0   0   0]
+ [  3  80   0   0   3   0   0   1   0   0]
+ [  5  28   3   0   1   0  50   0   0   0]
+ [  0  86   0   0   3   0   0  10   0   0]
+ [  2  84   2   0   0   0   0   0   1   0]
+ [  0  81   0   0  12   0   0   0   0   1]]
+
+==============================
+MNIST Random Forest n_trees=25
+==============================
+Training tree 1/25
+Training tree 2/25
+Training tree 3/25
+Training tree 4/25
+Training tree 5/25
+Training tree 6/25
+Training tree 7/25
+Training tree 8/25
+Training tree 9/25
+Training tree 10/25
+Training tree 11/25
+Training tree 12/25
+Training tree 13/25
+Training tree 14/25
+Training tree 15/25
+Training tree 16/25
+Training tree 17/25
+Training tree 18/25
+Training tree 19/25
+Training tree 20/25
+Training tree 21/25
+Training tree 22/25
+Training tree 23/25
+Training tree 24/25
+Training tree 25/25
+Accuracy: 0.3110
+Runtime: 18.73 seconds
+Confusion Matrix:
+[[ 53  31   1   0   0   0   0   0   0   0]
+ [  0 125   0   0   0   0   1   0   0   0]
+ [  1  77  35   0   0   0   2   0   1   0]
+ [  0 106   0   1   0   0   0   0   0   0]
+ [  1 100   1   0   7   0   1   0   0   0]
+ [  2  79   0   0   1   5   0   0   0   0]
+ [  5  24   1   0   0   0  57   0   0   0]
+ [  0  74   0   0   0   0   0  25   0   0]
+ [  0  84   3   0   0   0   1   0   1   0]
+ [  0  89   0   0   1   0   0   2   0   2]]
+
+==============================
+MNIST Random Forest n_trees=50
+==============================
+Training tree 1/50
+Training tree 2/50
+Training tree 3/50
+Training tree 4/50
+Training tree 5/50
+Training tree 6/50
+Training tree 7/50
+Training tree 8/50
+Training tree 9/50
+Training tree 10/50
+Training tree 11/50
+Training tree 12/50
+Training tree 13/50
+Training tree 14/50
+Training tree 15/50
+Training tree 16/50
+Training tree 17/50
+Training tree 18/50
+Training tree 19/50
+Training tree 20/50
+Training tree 21/50
+Training tree 22/50
+Training tree 23/50
+Training tree 24/50
+Training tree 25/50
+Training tree 26/50
+Training tree 27/50
+Training tree 28/50
+Training tree 29/50
+Training tree 30/50
+Training tree 31/50
+Training tree 32/50
+Training tree 33/50
+Training tree 34/50
+Training tree 35/50
+Training tree 36/50
+Training tree 37/50
+Training tree 38/50
+Training tree 39/50
+Training tree 40/50
+Training tree 41/50
+Training tree 42/50
+Training tree 43/50
+Training tree 44/50
+Training tree 45/50
+Training tree 46/50
+Training tree 47/50
+Training tree 48/50
+Training tree 49/50
+Training tree 50/50
+Accuracy: 0.2960
+Runtime: 29.86 seconds
+Confusion Matrix:
+[[ 50  35   0   0   0   0   0   0   0   0]
+ [  0 126   0   0   0   0   0   0   0   0]
+ [  0  91  23   0   0   0   2   0   0   0]
+ [  0 106   0   0   0   0   0   0   0   1]
+ [  1 105   2   0   0   0   1   1   0   0]
+ [  2  84   0   0   0   0   0   1   0   0]
+ [  4  27   0   0   0   0  56   0   0   0]
+ [  0  61   0   0   0   0   0  38   0   0]
+ [  0  87   1   0   0   0   0   0   1   0]
+ [  0  88   0   0   1   0   0   3   0   2]]
+
+MNIST RANDOM FOREST RANDOM FEATURES TESTS
+
+==============================
+MNIST Random Forest random_features=25
+==============================
+Training tree 1/25
+Training tree 2/25
+Training tree 3/25
+Training tree 4/25
+Training tree 5/25
+Training tree 6/25
+Training tree 7/25
+Training tree 8/25
+Training tree 9/25
+Training tree 10/25
+Training tree 11/25
+Training tree 12/25
+Training tree 13/25
+Training tree 14/25
+Training tree 15/25
+Training tree 16/25
+Training tree 17/25
+Training tree 18/25
+Training tree 19/25
+Training tree 20/25
+Training tree 21/25
+Training tree 22/25
+Training tree 23/25
+Training tree 24/25
+Training tree 25/25
+Accuracy: 0.4050
+Runtime: 11.44 seconds
+Confusion Matrix:
+[[ 67  16   2   0   0   0   0   0   0   0]
+ [  0 125   1   0   0   0   0   0   0   0]
+ [  0  62  49   1   0   0   3   0   1   0]
+ [  0  93   1  12   0   0   0   0   0   1]
+ [  1  61   4   0  44   0   0   0   0   0]
+ [  2  72   0   3   2   5   1   2   0   0]
+ [  6  19   0   0   0   0  62   0   0   0]
+ [  0  59   0   0   0   0   0  40   0   0]
+ [  2  82   3   0   0   0   1   0   1   0]
+ [  0  65   0   0  24   0   0   5   0   0]]
+
+==============================
+MNIST Random Forest random_features=50
+==============================
+Training tree 1/25
+Training tree 2/25
+Training tree 3/25
+Training tree 4/25
+Training tree 5/25
+Training tree 6/25
+Training tree 7/25
+Training tree 8/25
+Training tree 9/25
+Training tree 10/25
+Training tree 11/25
+Training tree 12/25
+Training tree 13/25
+Training tree 14/25
+Training tree 15/25
+Training tree 16/25
+Training tree 17/25
+Training tree 18/25
+Training tree 19/25
+Training tree 20/25
+Training tree 21/25
+Training tree 22/25
+Training tree 23/25
+Training tree 24/25
+Training tree 25/25
+Accuracy: 0.3060
+Runtime: 15.56 seconds
+Confusion Matrix:
+[[ 52  33   0   0   0   0   0   0   0   0]
+ [  0 126   0   0   0   0   0   0   0   0]
+ [  0  87  28   1   0   0   0   0   0   0]
+ [  0 106   0   0   0   0   0   0   0   1]
+ [  1 108   0   0   0   0   1   0   0   0]
+ [  2  84   0   0   0   0   0   1   0   0]
+ [  4  22   2   0   0   0  59   0   0   0]
+ [  0  59   0   0   0   0   0  40   0   0]
+ [  1  86   1   0   0   0   0   0   1   0]
+ [  0  92   0   0   0   0   0   2   0   0]]
+
+==============================
+MNIST Random Forest random_features=75
+==============================
+Training tree 1/25
+Training tree 2/25
+Training tree 3/25
+Training tree 4/25
+Training tree 5/25
+Training tree 6/25
+Training tree 7/25
+Training tree 8/25
+Training tree 9/25
+Training tree 10/25
+Training tree 11/25
+Training tree 12/25
+Training tree 13/25
+Training tree 14/25
+Training tree 15/25
+Training tree 16/25
+Training tree 17/25
+Training tree 18/25
+Training tree 19/25
+Training tree 20/25
+Training tree 21/25
+Training tree 22/25
+Training tree 23/25
+Training tree 24/25
+Training tree 25/25
+Accuracy: 0.2580
+Runtime: 20.36 seconds
+Confusion Matrix:
+[[ 42  42   1   0   0   0   0   0   0   0]
+ [  0 125   0   0   0   0   1   0   0   0]
+ [  0  90  25   0   0   0   0   0   1   0]
+ [  0 107   0   0   0   0   0   0   0   0]
+ [  1 107   1   0   0   0   1   0   0   0]
+ [  2  84   0   0   0   0   0   1   0   0]
+ [  5  26   1   0   0   0  55   0   0   0]
+ [  0  88   0   0   0   0   0  10   0   1]
+ [  1  85   1   0   0   0   1   0   1   0]
+ [  0  94   0   0   0   0   0   0   0   0]]
+
+==============================
+MNIST Random Forest random_features=100
+==============================
+Training tree 1/25
+Training tree 2/25
+Training tree 3/25
+Training tree 4/25
+Training tree 5/25
+Training tree 6/25
+Training tree 7/25
+Training tree 8/25
+Training tree 9/25
+Training tree 10/25
+Training tree 11/25
+Training tree 12/25
+Training tree 13/25
+Training tree 14/25
+Training tree 15/25
+Training tree 16/25
+Training tree 17/25
+Training tree 18/25
+Training tree 19/25
+Training tree 20/25
+Training tree 21/25
+Training tree 22/25
+Training tree 23/25
+Training tree 24/25
+Training tree 25/25
+Accuracy: 0.2480
+Runtime: 23.65 seconds
+Confusion Matrix:
+[[ 41  43   1   0   0   0   0   0   0   0]
+ [  0 125   0   0   0   0   1   0   0   0]
+ [  0  98  16   1   0   0   1   0   0   0]
+ [  0 107   0   0   0   0   0   0   0   0]
+ [  1 108   0   0   0   0   1   0   0   0]
+ [  1  85   0   0   0   0   0   1   0   0]
+ [  5  30   0   0   0   0  52   0   0   0]
+ [  0  86   0   0   0   0   0  13   0   0]
+ [  0  87   1   0   0   0   0   0   1   0]
+ [  1  93   0   0   0   0   0   0   0   0]]
+
+MNIST ADABOOST ESTIMATOR TESTS
+
+==============================
+MNIST AdaBoost OvR n_estimators=5
+==============================
+Training AdaBoost for class 0
+Training AdaBoost stump 1/5
+Training AdaBoost stump 2/5
+Training AdaBoost stump 3/5
+Training AdaBoost stump 4/5
+Training AdaBoost stump 5/5
+Training AdaBoost for class 1
+Training AdaBoost stump 1/5
+Training AdaBoost stump 2/5
+Training AdaBoost stump 3/5
+Training AdaBoost stump 4/5
+Training AdaBoost stump 5/5
+Training AdaBoost for class 2
+Training AdaBoost stump 1/5
+Training AdaBoost stump 2/5
+Training AdaBoost stump 3/5
+Training AdaBoost stump 4/5
+Training AdaBoost stump 5/5
+Training AdaBoost for class 3
+Training AdaBoost stump 1/5
+Training AdaBoost stump 2/5
+Training AdaBoost stump 3/5
+Training AdaBoost stump 4/5
+Training AdaBoost stump 5/5
+Training AdaBoost for class 4
+Training AdaBoost stump 1/5
+Training AdaBoost stump 2/5
+Training AdaBoost stump 3/5
+Training AdaBoost stump 4/5
+Training AdaBoost stump 5/5
+Training AdaBoost for class 5
+Training AdaBoost stump 1/5
+Training AdaBoost stump 2/5
+Training AdaBoost stump 3/5
+Training AdaBoost stump 4/5
+Training AdaBoost stump 5/5
+Training AdaBoost for class 6
+Training AdaBoost stump 1/5
+Training AdaBoost stump 2/5
+Training AdaBoost stump 3/5
+Training AdaBoost stump 4/5
+Training AdaBoost stump 5/5
+Training AdaBoost for class 7
+Training AdaBoost stump 1/5
+Training AdaBoost stump 2/5
+Training AdaBoost stump 3/5
+Training AdaBoost stump 4/5
+Training AdaBoost stump 5/5
+Training AdaBoost for class 8
+Training AdaBoost stump 1/5
+Training AdaBoost stump 2/5
+Training AdaBoost stump 3/5
+Training AdaBoost stump 4/5
+Training AdaBoost stump 5/5
+Training AdaBoost for class 9
+Training AdaBoost stump 1/5
+Training AdaBoost stump 2/5
+Training AdaBoost stump 3/5
+Training AdaBoost stump 4/5
+Training AdaBoost stump 5/5
+Accuracy: 0.5440
+Runtime: 3.52 seconds
+Confusion Matrix:
+[[58  0  2  0  6  4  4  4  6  1]
+ [ 0 85  0 30  6  0  1  1  3  0]
+ [11  5 39  8 13  0 12 15  7  6]
+ [ 4  2  0 55  2 17  1 13  8  5]
+ [ 4  2  0  1 77 10  2  4  0 10]
+ [ 3  2  0 15 10 36  0  6  8  7]
+ [12  2  2  0 18  3 46  2  1  1]
+ [ 2  5  3  2  7  2  2 65  1 10]
+ [ 3 11  3  7  4  5  5  4 40  7]
+ [ 0  1  0  3 20  5  1 19  2 43]]
+
+==============================
+MNIST AdaBoost OvR n_estimators=10
+==============================
+Training AdaBoost for class 0
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 1
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 2
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 3
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 4
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 5
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 6
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 7
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 8
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Training AdaBoost for class 9
+Training AdaBoost stump 1/10
+Training AdaBoost stump 2/10
+Training AdaBoost stump 3/10
+Training AdaBoost stump 4/10
+Training AdaBoost stump 5/10
+Training AdaBoost stump 6/10
+Training AdaBoost stump 7/10
+Training AdaBoost stump 8/10
+Training AdaBoost stump 9/10
+Training AdaBoost stump 10/10
+Accuracy: 0.6860
+Runtime: 7.27 seconds
+Confusion Matrix:
+[[ 69   0   3   0   2   4   4   1   0   2]
+ [  0 115   0   9   0   0   0   0   2   0]
+ [  1  12  68   8   6   2   5   4   6   4]
+ [  1   2   2  69   1  15   1   6   6   4]
+ [  1   1   0   0  85   7   2   4   0  10]
+ [  0   2   0  14   5  50   1   7   4   4]
+ [  7   1   3   0   5   3  57   4   5   2]
+ [  0   6   2   1   5   3   1  70   1  10]
+ [  2   7   2  11   3   6   2   4  47   5]
+ [  0   3   0   4  16   2   0  10   3  56]]
+
+==============================
+MNIST AdaBoost OvR n_estimators=15
+==============================
+Training AdaBoost for class 0
+Training AdaBoost stump 1/15
+Training AdaBoost stump 2/15
+Training AdaBoost stump 3/15
+Training AdaBoost stump 4/15
+Training AdaBoost stump 5/15
+Training AdaBoost stump 6/15
+Training AdaBoost stump 7/15
+Training AdaBoost stump 8/15
+Training AdaBoost stump 9/15
+Training AdaBoost stump 10/15
+Training AdaBoost stump 11/15
+Training AdaBoost stump 12/15
+Training AdaBoost stump 13/15
+Training AdaBoost stump 14/15
+Training AdaBoost stump 15/15
+Training AdaBoost for class 1
+Training AdaBoost stump 1/15
+Training AdaBoost stump 2/15
+Training AdaBoost stump 3/15
+Training AdaBoost stump 4/15
+Training AdaBoost stump 5/15
+Training AdaBoost stump 6/15
+Training AdaBoost stump 7/15
+Training AdaBoost stump 8/15
+Training AdaBoost stump 9/15
+Training AdaBoost stump 10/15
+Training AdaBoost stump 11/15
+Training AdaBoost stump 12/15
+Training AdaBoost stump 13/15
+Training AdaBoost stump 14/15
+Training AdaBoost stump 15/15
+Training AdaBoost for class 2
+Training AdaBoost stump 1/15
+Training AdaBoost stump 2/15
+Training AdaBoost stump 3/15
+Training AdaBoost stump 4/15
+Training AdaBoost stump 5/15
+Training AdaBoost stump 6/15
+Training AdaBoost stump 7/15
+Training AdaBoost stump 8/15
+Training AdaBoost stump 9/15
+Training AdaBoost stump 10/15
+Training AdaBoost stump 11/15
+Training AdaBoost stump 12/15
+Training AdaBoost stump 13/15
+Training AdaBoost stump 14/15
+Training AdaBoost stump 15/15
+Training AdaBoost for class 3
+Training AdaBoost stump 1/15
+Training AdaBoost stump 2/15
+Training AdaBoost stump 3/15
+Training AdaBoost stump 4/15
+Training AdaBoost stump 5/15
+Training AdaBoost stump 6/15
+Training AdaBoost stump 7/15
+Training AdaBoost stump 8/15
+Training AdaBoost stump 9/15
+Training AdaBoost stump 10/15
+Training AdaBoost stump 11/15
+Training AdaBoost stump 12/15
+Training AdaBoost stump 13/15
+Training AdaBoost stump 14/15
+Training AdaBoost stump 15/15
+Training AdaBoost for class 4
+Training AdaBoost stump 1/15
+Training AdaBoost stump 2/15
+Training AdaBoost stump 3/15
+Training AdaBoost stump 4/15
+Training AdaBoost stump 5/15
+Training AdaBoost stump 6/15
+Training AdaBoost stump 7/15
+Training AdaBoost stump 8/15
+Training AdaBoost stump 9/15
+Training AdaBoost stump 10/15
+Training AdaBoost stump 11/15
+Training AdaBoost stump 12/15
+Training AdaBoost stump 13/15
+Training AdaBoost stump 14/15
+Training AdaBoost stump 15/15
+Training AdaBoost for class 5
+Training AdaBoost stump 1/15
+Training AdaBoost stump 2/15
+Training AdaBoost stump 3/15
+Training AdaBoost stump 4/15
+Training AdaBoost stump 5/15
+Training AdaBoost stump 6/15
+Training AdaBoost stump 7/15
+Training AdaBoost stump 8/15
+Training AdaBoost stump 9/15
+Training AdaBoost stump 10/15
+Training AdaBoost stump 11/15
+Training AdaBoost stump 12/15
+Training AdaBoost stump 13/15
+Training AdaBoost stump 14/15
+Training AdaBoost stump 15/15
+Training AdaBoost for class 6
+Training AdaBoost stump 1/15
+Training AdaBoost stump 2/15
+Training AdaBoost stump 3/15
+Training AdaBoost stump 4/15
+Training AdaBoost stump 5/15
+Training AdaBoost stump 6/15
+Training AdaBoost stump 7/15
+Training AdaBoost stump 8/15
+Training AdaBoost stump 9/15
+Training AdaBoost stump 10/15
+Training AdaBoost stump 11/15
+Training AdaBoost stump 12/15
+Training AdaBoost stump 13/15
+Training AdaBoost stump 14/15
+Training AdaBoost stump 15/15
+Training AdaBoost for class 7
+Training AdaBoost stump 1/15
+Training AdaBoost stump 2/15
+Training AdaBoost stump 3/15
+Training AdaBoost stump 4/15
+Training AdaBoost stump 5/15
+Training AdaBoost stump 6/15
+Training AdaBoost stump 7/15
+Training AdaBoost stump 8/15
+Training AdaBoost stump 9/15
+Training AdaBoost stump 10/15
+Training AdaBoost stump 11/15
+Training AdaBoost stump 12/15
+Training AdaBoost stump 13/15
+Training AdaBoost stump 14/15
+Training AdaBoost stump 15/15
+Training AdaBoost for class 8
+Training AdaBoost stump 1/15
+Training AdaBoost stump 2/15
+Training AdaBoost stump 3/15
+Training AdaBoost stump 4/15
+Training AdaBoost stump 5/15
+Training AdaBoost stump 6/15
+Training AdaBoost stump 7/15
+Training AdaBoost stump 8/15
+Training AdaBoost stump 9/15
+Training AdaBoost stump 10/15
+Training AdaBoost stump 11/15
+Training AdaBoost stump 12/15
+Training AdaBoost stump 13/15
+Training AdaBoost stump 14/15
+Training AdaBoost stump 15/15
+Training AdaBoost for class 9
+Training AdaBoost stump 1/15
+Training AdaBoost stump 2/15
+Training AdaBoost stump 3/15
+Training AdaBoost stump 4/15
+Training AdaBoost stump 5/15
+Training AdaBoost stump 6/15
+Training AdaBoost stump 7/15
+Training AdaBoost stump 8/15
+Training AdaBoost stump 9/15
+Training AdaBoost stump 10/15
+Training AdaBoost stump 11/15
+Training AdaBoost stump 12/15
+Training AdaBoost stump 13/15
+Training AdaBoost stump 14/15
+Training AdaBoost stump 15/15
+Accuracy: 0.7310
+Runtime: 11.77 seconds
+Confusion Matrix:
+[[ 73   0   3   0   0   1   5   2   0   1]
+ [  0 114   2   6   1   1   0   0   2   0]
+ [  2   6  79   5   5   0   3   7   9   0]
+ [  2   2   2  70   1  14   2   5   6   3]
+ [  1   0   1   0  85   5   2   1   3  12]
+ [  1   2   0   5   6  54   2   6   7   4]
+ [  6   2   3   0   2   1  67   2   4   0]
+ [  0   5   5   2   6   0   0  73   0   8]
+ [  1   5   3   7   4   6   4   1  53   5]
+ [  0   1   0   2  13   1   0  11   3  63]]
+
+========================================
+ALL TESTS FINISHED
+========================================
+Total runtime: 222.31 seconds

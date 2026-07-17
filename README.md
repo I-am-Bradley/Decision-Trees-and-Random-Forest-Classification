@@ -64,8 +64,8 @@ Decision_Trees_Random_Forest/
 
 ├── README.md
 ├── Decision_Trees_and_Random_Forest.py
-├── Data_set/
 ├── .gitattributes
+├── Data_set/
 │   ├── mnist/
 │   │   ├── t10k-images-idx3-ubyte
 │   │   ├── t10k-labels-idx1-ubyte

@@ -1,0 +1,99 @@
+TRAINING SINGLE C4.5 TREE
+==============================
+
+
+C4.5 Accuracy: 0.4182
+Execution Time: 84.69 seconds
+
+Confusion Matrix:
+[[348   4   7   0  95   0   3   1   1   1]
+ [  0 539   4   0  27   0   1   0   0   0]
+ [ 60  76 219  12 145   1  13   1   3   0]
+ [ 23 380   1   4  90   1   0   0   0   1]
+ [  4  46   4   2 430   0   7   2   1   4]
+ [ 41 168   5   0 228   4   4   1   3   2]
+ [ 33  26   7   2  42   2 348   0   2   0]
+ [  8  45   5   3 292   0   0 148   1  10]
+ [ 23 264  27   1 160   1   3   1   7   2]
+ [  4 105   1   0 360   0   0   6   0  44]]
+
+
+==============================
+TRAINING RANDOM FOREST
+==============================
+Training tree 1/100
+Training tree 2/100
+Training tree 3/100
+Training tree 4/100
+Training tree 5/100
+"	"	"
+"	"	"
+"	"	"
+Training tree 95/100
+Training tree 96/100
+Training tree 97/100
+Training tree 98/100
+Training tree 99/100
+Training tree 100/100
+
+Random Forest Accuracy: 0.9008
+Execution Time: 2070.85 seconds
+
+Confusion Matrix:
+[[452   0   0   0   3   0   2   0   3   0]
+ [  0 562   1   3   0   0   3   1   1   0]
+ [  4   5 492   7   2   0   2  14   4   0]
+ [  1  13   7 452   1   7   0  12   2   5]
+ [  1   1   2   0 446   0   7   3   5  35]
+ [  5   6   1  24  22 354   3   7   9  25]
+ [  9   4   0   0   6   4 432   0   7   0]
+ [  0  15   9   4   7   0   0 459   1  17]
+ [  4  31   7   8  13   8   2   3 399  14]
+ [  4   7   2  10  29   3   0   5   4 456]]
+
+
+==============================
+TRAINING ADABOOST OVR
+==============================
+Training AdaBoost for class 1
+Training AdaBoost stump 1/100
+Training AdaBoost stump 2/100
+Training AdaBoost stump 3/100
+Training AdaBoost stump 4/100
+Training AdaBoost stump 5/100
+"	 "	  "	"
+"	 "	  "	"
+Training AdaBoost for class 2
+Training AdaBoost for class 3
+Training AdaBoost for class 4
+Training AdaBoost for class 5
+Training AdaBoost for class 6
+Training AdaBoost for class 7
+Training AdaBoost for class 8
+Training AdaBoost for class 9
+
+"	 "	  "	"
+"	 "	  "	"
+Training AdaBoost stump 95/100
+Training AdaBoost stump 96/100
+Training AdaBoost stump 97/100
+Training AdaBoost stump 98/100
+Training AdaBoost stump 99/100
+Training AdaBoost stump 100/100
+
+AdaBoost OvR Accuracy: 0.8438
+Execution Time: 1086.33 seconds
+
+Confusion Matrix:
+[[433   0   3   2   0  15   5   0   2   0]
+ [  0 554   3   3   1   2   3   1   4   0]
+ [  7  17 419  22  11   3   9  19  22   1]
+ [  3   4   6 414   2  35   5  16  10   5]
+ [  0   5   6   2 441   6   8   1   2  29]
+ [ 13   8   2  29   7 346   6   6  23  16]
+ [  9   4   5   1  14  18 406   1   4   0]
+ [  3  22  15   7   6   2   3 423   1  30]
+ [  8  14   8  29  10  25  11   9 365  10]
+ [  3  10   6   8  29   9   1  28   8 418]]
+
+
